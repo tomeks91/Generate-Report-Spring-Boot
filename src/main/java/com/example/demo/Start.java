@@ -21,7 +21,7 @@ public class Start {
 
     @EventListener(ApplicationReadyEvent.class)
     public  void runExample(){
-        Finance finance = Finance.builder().name("Towar 1").ammount(BigDecimal.ONE).build();
+        Finance finance = new Finance("Tomwar 1", BigDecimal.valueOf(15.0));
         financialDataGateway.save(finance);
         financialReportController.present();
     }

@@ -8,9 +8,7 @@ import java.math.BigDecimal;
 
 @Entity
 @Table(name="Finance")
-@AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @Data
 public class Finance {
     @Id
@@ -23,4 +21,9 @@ public class Finance {
 
     @NotNull
     private BigDecimal ammount;
+
+    public Finance(String name, BigDecimal ammount){
+        this.name = name;
+        this.ammount = ammount;
+    }
 }
