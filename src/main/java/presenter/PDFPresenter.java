@@ -1,8 +1,8 @@
-package com.example.demo.presenter;
+package presenter;
 
-import com.example.demo.controller.FinancialReportPresenter;
-import com.example.demo.interactor.Finance;
-import com.example.demo.interactor.FinancialReportResponse;
+import controller.FinancialReportPresenter;
+import interactor.Finance;
+import interactor.FinancialReportResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -11,6 +11,7 @@ import java.util.List;
 
 @Component
 public class PDFPresenter implements FinancialReportPresenter {
+
     @Autowired
     private PrintView printView;
 

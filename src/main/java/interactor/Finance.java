@@ -1,9 +1,6 @@
-package com.example.demo.interactor;
+package interactor;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -13,7 +10,7 @@ import java.math.BigDecimal;
 @Table(name="Finance")
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
+@Builder
 @Data
 public class Finance {
     @Id

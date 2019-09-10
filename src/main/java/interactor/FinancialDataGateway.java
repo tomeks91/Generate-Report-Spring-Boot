@@ -1,4 +1,4 @@
-package com.example.demo.interactor;
+package interactor;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

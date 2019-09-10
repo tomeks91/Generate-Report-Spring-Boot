@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package controller;
 
-import com.example.demo.interactor.FinancialReportResponse;
+import interactor.FinancialReportResponse;
 
 public interface FinancialReportPresenter {
     void present(FinancialReportResponse financialReportResponse);

@@ -1,10 +1,11 @@
-package com.example.demo.interactor;
+package interactor;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class FinancialReportGenerator implements FinancialReportRequster {
+
     @Autowired
     private FinancialDataGateway financialDataGateway;
 

@@ -1,13 +1,15 @@
-package com.example.demo.controller;
+package controller;
 
-import com.example.demo.interactor.FinancialReportRequster;
+import interactor.FinancialReportRequster;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class FinancialReportController {
+
     @Autowired
     private FinancialReportPresenter financialReportPresenter;
+
     @Autowired
     private FinancialReportRequster financialReportRequster;
 

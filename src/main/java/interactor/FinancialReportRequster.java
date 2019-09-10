@@ -1,4 +1,4 @@
-package com.example.demo.interactor;
+package interactor;
 
 public interface FinancialReportRequster {
     FinancialReportResponse getData(FinancialReportRequest financialReportRequest) throws Exception;

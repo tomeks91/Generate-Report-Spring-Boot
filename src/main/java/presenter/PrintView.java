@@ -1,4 +1,4 @@
-package com.example.demo.presenter;
+package presenter;
 
 public interface PrintView {
     void generate(PrintViewModel printViewModel);

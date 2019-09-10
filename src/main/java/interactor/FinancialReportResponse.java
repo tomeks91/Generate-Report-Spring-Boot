@@ -1,4 +1,4 @@
-package com.example.demo.interactor;
+package interactor;
 
 import com.google.common.collect.ImmutableList;
 import lombok.AllArgsConstructor;

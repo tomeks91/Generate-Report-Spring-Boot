@@ -1,4 +1,4 @@
-package com.example.demo.presenter;
+package presenter;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

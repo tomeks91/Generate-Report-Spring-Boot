@@ -1,4 +1,4 @@
-package com.example.demo.interactor;
+package interactor;
 
 public class FinancialReportRequest {
 }
